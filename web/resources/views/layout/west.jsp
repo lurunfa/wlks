@@ -16,13 +16,11 @@ $(function () {
     }
 
     addTabs({
-        text:'欢迎使用后台管理系统',
+        text:'首页',
         url:'/admin/welcome'
     });
 
     $('#tree_menu').tree({
-        url:'admin/node/display',
-        parentField:'pid',
         onClick:function(node){
             if(!$('#content').tabs('exists',node.text)){
                 if(node.attributes){
@@ -39,4 +37,19 @@ $(function () {
     })
 })
 </script>
-<ul id="tree_menu" class="easyui-tree"></ul>
+<ul id="tt" class="easyui-tree">
+    <li>
+        <span>订单管理</span>
+        <ul>
+            <li>
+                <span>新增订单</span>
+            </li>
+            <li>
+                <span>查询订单</span>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <span>入库管理</span>
+    </li>
+</ul>
