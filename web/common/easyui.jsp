@@ -4,24 +4,24 @@
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resources/easyUI/themes/bootstrap/easyui.css"/>
 
 <style>
-.datagrid-header-row td {
-	background-color: gray;
-	color: #fff;
-}
+    .datagrid-header-row td {
+        background-color: gray;
+        color: #fff;
+    }
 
-.datagrid-header .datagrid-cell span {
-	font-size: 14px;
-}
+    .datagrid-header .datagrid-cell span {
+        font-size: 14px;
+    }
 
-.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber {
-	font-size: 14px;
-	font-family: 微软雅黑;
-}
+    .datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber {
+        font-size: 14px;
+        font-family: 微软雅黑;
+    }
 
-.tree-title {
-	font-size: 14px;
-	font-family: 微软雅黑;
-}
+    .tree-title {
+        font-size: 14px;
+        font-family: 微软雅黑;
+    }
 </style>
 
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resources/easyUI/themes/icon.css"></link>
@@ -29,7 +29,7 @@
 <!-- 加载扩展自定义图标按钮 -->
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resources/easyUI/themes/myicon.css"></link>
 
-<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/jquery.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/easyUI/jquery.min.js"></script>
 
 <script type="text/javascript" src="<%=request.getContextPath()%>/resources/easyUI/jquery.easyui.min.js"></script>
 
